@@ -30,7 +30,8 @@ public class Flight {
  Time arrivalTime;
  String flightDate;
  AirPlane Plane = new AirPlane();// - aircraft assigned (this should be an object);
- 
+
+    
   /**
   * A constructor which accepts data 
   * (except for departure time and arrival time), 
@@ -85,22 +86,11 @@ public class Flight {
         
         this.flightDate = fc.format(flightDate);
     }
-
-    public AirPlane getPlane() {
-        return Plane;
+    
+    public void setPlane(){
+        
     }
 
-    public void setPlane(AirPlane Plane) {
-        this.Plane = Plane;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
 //    Flight Information: 
 //Date: <<insert date of flight>> 
 //From: <<insert origin>> 
@@ -124,9 +114,6 @@ public class Flight {
                 
     }
     
-
- 
- 
     
     
 }

@@ -22,6 +22,8 @@ public class Aircraft {
         this.capacity = capacity;
     }
 
+    public Aircraft() {
+    }
 
     public String getBrand() {
         return brand;

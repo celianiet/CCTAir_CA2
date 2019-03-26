@@ -18,6 +18,10 @@ public class AirPlane extends Aircraft {
         this.pilotname = pilotname;
     }
 
+    public AirPlane() {
+    }
+    
+
     public String getPilot() {
         return pilotname;
     }
