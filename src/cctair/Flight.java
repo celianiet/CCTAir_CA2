@@ -29,9 +29,14 @@ public class Flight {
  Time departureTime;
  Time arrivalTime;
  String flightDate;
+<<<<<<< HEAD
  AirPlane Plane = new AirPlane();// - aircraft assigned (this should be an object);
 
     
+=======
+ AirPlane Plane = new AirPlane("","","",500);// - aircraft assigned (this should be an object);
+ 
+>>>>>>> 90b38f6ad06b858ecaba204d05597af23bedb19b
   /**
   * A constructor which accepts data 
   * (except for departure time and arrival time), 
